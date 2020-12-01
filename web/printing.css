@@ -1,0 +1,62 @@
+
+.buttonMiddle{
+    background-color:#d8d4d4;
+    border:none;
+    border-radius: 5px;
+    color:#6b6666; 
+    cursor: hand;
+    height: 45px;
+    float: left;
+    font-family: Space Grotesk;
+    font-size:1.2em;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align:center;  
+    width:18em; 
+}
+.buttonMiddle:hover {
+    background-color: #8d8c8c;
+    color: white;
+}
+.middle{
+    margin: 5em 20em 5em 30em ;
+    padding: 6em auto 6em;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow:0px 4px 5px #707070;
+    position: relative;
+    right: 3em;
+    width: 37em;
+}
+.imageMiddle{
+    display: block;
+    height: 4.5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 4.5em;
+    float: right;
+}
+.title{
+    color: #1FB6B9;
+    font-family: 'Space Grotesk';
+    font-size: 42px;
+    font-weight: 900;
+    padding: 5px;
+    padding-top:15px;
+    padding-left:70px;
+    text-align: left;
+}
+.printing{
+    height:80px;
+    left:50px;
+    padding-left:20px;
+    padding-top:10px;
+    position:relative;
+    width:80px;
+}
+.printingWhole{
+    margin:10px auto; 
+    padding-left:30px;
+    padding-right:50px;
+}

@@ -1,0 +1,95 @@
+
+.tableStyle{
+    position: center;
+    width: 100%;
+}
+.button{
+    background-color: #1FB6B9;
+    border: none;
+    border-radius: 5px;
+    cursor: hand;
+    color:white;
+    font-family: Space Grotesk;
+    font-weight:800;
+    font-size:1.2em;
+    left: 60px;
+    margin:auto;
+    margin-top: 45px;
+    padding:9px;
+    position: relative;
+    text-align:center;
+    width:5em;
+}
+.button:hover {
+    background-color: #707070;
+}
+
+
+
+.description{
+    color:#707070 ;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 0.5em;
+    text-align: justify;
+    width: 75%;
+    min-height: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: anywhere;
+    /*width: 15em;*/
+}
+
+.image{
+    display: block;
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 5em;
+}
+.name{
+    color:#707070 ;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    padding: 0.5em;
+    text-align: center;
+}
+.requestWord{
+    padding-top:25px;
+	color:#1FB6B9 ;
+    font-family: Space Grotesk;
+    font-size: 42px;
+    text-align: center;
+}
+.requestBg{
+      margin: 0 auto;
+      margin-top: 0.5em;
+      position:relative;
+      top:0.5px;
+}
+
+.request{
+    background-color: white;
+    box-shadow:0px 4px 5px #1FB6B9;
+    /*height: 25em;*/
+    margin-left: 2.5em;
+    padding: 1em;
+    width: 15em;
+    /*display: flex;*/
+    /* width: 100%;*/
+    /*padding: 50px;*/
+    /*background: lightgrey;*/
+    box-sizing: border-box;
+}
+.title{
+    color:#1FB6B9 ;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 0.5em;
+    text-align: center;
+    width: 75%;
+}

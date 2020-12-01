@@ -1,0 +1,326 @@
+
+.buttonMiddle{
+    background-color:#d8d4d4;
+    border:none;
+    border-radius: 5px;
+    color:#6b6666; 
+    cursor: hand;
+    height: 45px;
+    float: left;
+    font-family: Space Grotesk;
+    font-size:1.2em;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align:center;  
+    width:18em; 
+    outline: none;
+    border: none;
+}
+.buttonMiddle:hover {
+    background-color: #8d8c8c;
+    color: white;
+}
+.middle{
+    margin: 5em 20em 5em 30em ;
+    padding: 6em auto 6em;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow:0px 4px 5px #707070;
+    position: relative;
+    right: 3em;
+    width: 37em;
+}
+.imageMiddle{
+    display: block;
+    height: 4.5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 4.5em;
+    float: right;
+}
+.titleMain{
+    color: #1FB6B9;
+    font-family: 'Space Grotesk';
+    font-size: 40px;
+    font-weight: 900;
+    padding: 5px;
+    padding-top:15px;
+    padding-left:70px;
+    text-align: left;
+}
+.printing{
+    height:80px;
+    left:50px;
+    padding-left:20px;
+    padding-top:10px;
+    position:relative;
+    width:80px;
+}
+.printingWhole{
+    margin:10px auto; 
+    padding-left:30px;
+    padding-right:50px;
+}
+
+.requestPrinting{
+    display: none;/*hide it*/
+    position: fixed;
+    z-index: 1;/*sit on top*/
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;/*enable scroll if needed*/
+    background-color: rgba(202, 197, 197, 0.6);
+    -webkit-animation-name:fadeIn;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.requestContent{
+    position: fixed;
+    border-radius: 5px;
+    box-shadow:0px 4px 5px #707070;
+    left: 23em;
+    width:50em;
+    height: 30em;
+    background-color: white;
+    top:5em;
+    /*width: 100%;*/
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.7s;
+    animation-name: slideIn;
+    animation-duration: 0.7s;
+}
+
+/*the close button*/
+.close{
+    color: #1FB6B9;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover{
+    cursor: hand;
+}
+.close:focus{
+    color: gray;
+    text-decoration: none;
+}
+
+.imagePrinting{
+    display: block;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 3em;
+}
+.requestHeader{
+    padding: 16px;
+    background-color: white;
+    color: #1FB6B9;
+    border-radius: 5px;
+    height:10%;
+    text-align: center;
+    font-family:Space Grotesk;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.requestBody{
+    padding: 2px 16px;
+    height:90%;
+}
+.requester{
+    font-size: 18px;
+    color: #707070;
+    font-weight: bold;
+    font-family: Space Grotesk;
+}
+.titleInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: none;
+    /*border: 3px solid #ccc;*/
+    background-color: #ccc;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-family: Space Grotesk;
+    font-size: 15px;
+  }
+  
+.titleInput:focus {
+    /*border: 3px solid #555;*/
+    background-color: #ccc;
+    color: black;
+  }
+  .desInput {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    /*border: 3px solid #ccc;*/
+    border: none;
+    background-color: #ccc;
+    -webkit-transition: 0.5s;
+    border-radius: 5px;
+    transition: 0.5s;
+    outline: none;
+    vertical-align: top;
+    color: black;
+    font-weight: bold;
+    font-family: Space Grotesk;
+    font-size: 15px;
+    overflow: auto;
+    resize: none;
+  }
+  
+.desInput:focus {
+    /*border: 3px solid #555;*/
+    background-color: #ccc;
+    color: black;
+  }
+
+.label{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Space Grotesk;
+      color: #707070;
+  }
+
+.buttonSubmit{
+    background-color:#1FB6B9;
+    border: none;
+    border-radius: 5px;
+    cursor: hand;
+    color:white; 
+    font-family: Space Grotesk;
+    font-weight:800; 
+    font-size:1.2em;
+    left: 18em;
+    margin: 0 auto;
+    padding:9px; 
+    position: relative;
+    text-align:center;  
+    width:5em;
+    outline: none;
+}
+.buttonSubmit:hover {
+    background-color: #707070;
+}
+
+.imageHelp{
+    display: block;
+    height: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 4em;
+    position: relative;
+    left: 12px;
+}
+.help{
+    display: none;/*hide it*/
+    position: fixed;
+    z-index: 1;/*sit on top*/
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;/*enable scroll if needed*/
+    background-color: rgba(202, 197, 197, 0.6);
+    -webkit-animation-name:fadeIn;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.helpContent{
+    position: fixed;
+    border-radius: 5px;
+    box-shadow:0px 4px 5px #707070;
+    left: 30em;
+    width:25em;
+    height: 15em;
+    background-color: white;
+    top:10em;
+    /*width: 100%;*/
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.7s;
+    animation-name: slideIn;
+    animation-duration: 0.7s;
+}
+
+.helpBody{
+    padding: 2px 16px;
+    height:90%;
+}
+
+.requester_help{
+    font-size: 15px;
+    color: #707070;
+    font-weight: bold;
+    font-family: Space Grotesk;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.helpQuestion{
+    font-size: 20px;
+    color: #1FB6B9;
+    font-weight: bold;
+    font-family: Space Grotesk;
+    text-align: center;
+}
+
+.buttonHelp{
+    background-color:#1FB6B9;
+    border: none;
+    border-radius: 5px;
+    cursor: hand;
+    color:white; 
+    font-family: Space Grotesk;
+    font-weight:800; 
+    font-size:1.2em;
+    top:1em;
+    left:5.5em;
+    margin: 0;
+    padding:9px; 
+    position: relative;
+    text-align:center;  
+    width:7em;
+    outline: none;
+    text-decoration: none;
+}
+.buttonHelp:hover {
+    background-color: #707070;
+}
+/*adding animation*/
+@-webkit-keyframes slideIn {
+    from { bottom: -300px; opacity: 0;}
+    to {bottom: 0; opacity: 1;}
+}
+@keyframes slideIn{
+    from { bottom: -300px; opacity: 0;}
+    to {bottom: 0; opacity: 1;}
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

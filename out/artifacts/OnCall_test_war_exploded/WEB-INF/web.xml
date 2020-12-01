@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>newpackage.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>newpackage.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>newpackage.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PostServlet</servlet-name>
+        <servlet-class>newpackage.PostServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostServlet</servlet-name>
+        <url-pattern>/PostServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HelpServlet</servlet-name>
+        <servlet-class>newpackage.HelpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelpServlet</servlet-name>
+        <url-pattern>/HelpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ErrandServlet</servlet-name>
+        <servlet-class>newpackage.ErrandServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ErrandServlet</servlet-name>
+        <url-pattern>/ErrandServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CleaningServlet</servlet-name>
+        <servlet-class>newpackage.CleaningServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CleaningServlet</servlet-name>
+        <url-pattern>/CleaningServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CarpoolServlet</servlet-name>
+        <servlet-class>newpackage.CarpoolServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarpoolServlet</servlet-name>
+        <url-pattern>/CarpoolServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CompleteServlet</servlet-name>
+        <servlet-class>newpackage.CompleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CompleteServlet</servlet-name>
+        <url-pattern>/CompleteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CancelServlet</servlet-name>
+        <servlet-class>newpackage.CancelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CancelServlet</servlet-name>
+        <url-pattern>/CancelServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteRequestServlet</servlet-name>
+        <servlet-class>newpackage.DeleteRequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteRequestServlet</servlet-name>
+        <url-pattern>/DeleteRequestServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditProfileServlet</servlet-name>
+        <servlet-class>newpackage.EditProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditProfileServlet</servlet-name>
+        <url-pattern>/EditProfileServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeletePostServlet</servlet-name>
+        <servlet-class>newpackage.DeletePostServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeletePostServlet</servlet-name>
+        <url-pattern>/DeletePostServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>
